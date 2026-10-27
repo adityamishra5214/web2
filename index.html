@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LIVY — Concept 03: A New Indian Home | Living Indian Voices and Yarns</title>
+  <meta name="description" content="LIVY Concept 03: A New Indian Home. Contemporary, expressive, editorial home linen connecting Indian textile traditions with modern living spaces. Crafted from 400 TC combed cotton." />
+  <meta name="keywords" content="LIVY, Indian home linen, contemporary bedsheets, hand-block printing, Sanganer, Bagru, combed cotton percale, Indian design" />
+
+  <!-- Favicon using supplied new logo -->
+  <link rel="icon" type="image/png" href="assets/logo/livy-logo-transparent.png" />
+
+  <!-- Google Fonts: Nunito (UI / Body) & Lora (Editorial Headings) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Master Stylesheet (Warm Sunburst Palette: #FFCC00, #FFB900, #FF8C00, #FF5F00) -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========================================================================
+       TOP ANNOUNCEMENT BAR
+       ======================================================================== -->
+  <div class="announcement-bar" role="region" aria-label="Brand Announcement">
+    <span>Concept 03: <span class="highlight">A New Indian Home</span></span>
+    <span class="separator">✦</span>
+    <span>Complimentary Pan-India Express Delivery</span>
+    <span class="separator">✦</span>
+    <span class="highlight">400 TC Long-Staple Combed Cotton</span>
+  </div>
+
+  <!-- ========================================================================
+       SITE HEADER / STICKY NAVIGATION
+       ======================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="site-container header-inner">
+      <!-- Supplied New Logo Direction -->
+      <a href="#brandStoryLanding" class="brand-logo" aria-label="LIVY Home">
+        <img src="assets/logo/livy-logo-transparent.png" alt="LIVY — Living Indian Voices and Yarns" class="brand-logo-img" />
+        <span class="brand-badge">Concept 03</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="header-nav" aria-label="Main Navigation">
+        <a href="#brandStoryLanding" class="nav-link story-toggle-btn" data-target="story">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polygon points="10 8 16 12 10 16 10 8"></polygon>
+          </svg>
+          <span>Brand Story</span>
+        </a>
+        <a href="#shoppingHomepage" class="nav-link active" data-target="shop">The 5 Foundations</a>
+        <a href="#craftPillars" class="nav-link">Four Pillars</a>
+        <a href="#craftStory" class="nav-link">Sanganer Craft</a>
+        <a href="#livingLookbook" class="nav-link">Lookbook</a>
+      </nav>
+
+      <!-- Header Actions: Currency, Wishlist, Cart Drawer -->
+      <div class="header-actions">
+        <!-- Currency Selector -->
+        <div class="currency-select-wrapper">
+          <select id="currencySelector" class="currency-select" aria-label="Select Currency">
+            <option value="INR" selected>INR (₹)</option>
+            <option value="USD">USD ($)</option>
+            <option value="EUR">EUR (€)</option>
+            <option value="GBP">GBP (£)</option>
+          </select>
+        </div>
+
+        <!-- Bag / Cart Trigger Button -->
+        <button id="cartTriggerBtn" class="icon-btn" aria-label="View Shopping Bag" title="Shopping Bag">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="icon-badge cart-count-badge" style="display: none;">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       JOURNEY STEP 1: LUXURY SPLIT-SCREEN BRAND STORYTELLING LANDING (Reference Design)
+       Deep Royal Indigo, Earth Song, 4 Craft Dots, Luxury Framed CTA, Botanical Trees, and Textile Stack
+       ======================================================================== -->
+  <section class="brand-story-landing" id="brandStoryLanding">
+    <div class="luxury-split-container">
+      <!-- Left Narrative Column (Poetic & Handcrafted) -->
+      <div class="story-left-col">
+        <div class="story-left-content">
+          <div class="story-brand-header">
+            <img src="assets/logo/livy-logo-light.png" alt="LIVY — Living Indian Voices and Yarns" class="story-logo-yarn" />
+            <div class="story-concept-eyebrow">Concept 03 • A New Indian Home</div>
+          </div>
+
+          <h1 class="story-luxury-title editorial-title">
+            Earth Song
+          </h1>
+
+          <!-- The 4 Sunburst craft dots from reference design •••• -->
+          <div class="craft-dots-row" aria-label="Warm Sunburst craft palette">
+            <span class="craft-dot dot-sun" title="Sun Yellow #FFCC00"></span>
+            <span class="craft-dot dot-gold" title="Golden Yellow #FFB900"></span>
+            <span class="craft-dot dot-orange" title="Orange #FF8C00"></span>
+            <span class="craft-dot dot-vermilion" title="Vermilion #FF5F00"></span>
+          </div>
+
+          <div class="story-whisper-text">
+            Pause and listen in...
+          </div>
+
+          <p class="story-manifesto-sub">
+            Textile traditions forged over centuries across Rajasthan and Madhya Pradesh, re-imagined for the architectural stillness of the contemporary Indian sanctuary.
+          </p>
+
+          <!-- Framed Luxury CTA Button matching reference [ EXPLORE MORE ] -->
+          <button id="btnEnterArtisans" class="btn-luxury-frame" type="button">
+            <span>ENTER THE WORLD OF ARTISANS</span>
+            <span class="frame-arrow">→</span>
+          </button>
+        </div>
+
+        <!-- Handcrafted Indian Botanical Trees Illustration in Bottom-Left Corner -->
+        <div class="botanical-corner-wrap" aria-hidden="true">
+          <img src="assets/editorial/botanical-artisan-trees.svg" alt="Artisanal block print trees and dragonfly" />
+        </div>
+      </div>
+
+      <!-- Right Editorial Photography Column (Tactile Home Textiles Stack) -->
+      <div class="story-right-col">
+        <div class="luxury-textile-stack">
+          <img src="assets/editorial/luxury-textiles-hero.jpg" alt="LIVY Luxury Indian Home Linen and Cushions Stack" class="luxury-stack-img" />
+          <div class="textile-tag-badge">
+            <span class="tag-eyebrow">Handloom Weaves &amp; Relief Blocks</span>
+            <div class="tag-title">A New Indian Home</div>
+            <div class="tag-meta">400 TC Combed Cotton • Bagru Dabu Mud Resist • Sanganer Teak Blocks</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       JOURNEY STEP 4: MAIN SHOPPING HOMEPAGE
+       ======================================================================== -->
+  <main class="shopping-homepage" id="shoppingHomepage">
+
+    <!-- ----------------------------------------------------------------------
+         EDITORIAL HERO SECTION
+         ---------------------------------------------------------------------- -->
+    <section class="editorial-hero">
+      <div class="site-container editorial-hero-grid">
+        <div class="hero-text-col">
+          <div class="eyebrow">The Editorial Collection</div>
+          <h2 class="hero-editorial-h1 editorial-title">
+            The bed as the <em>architectural heart</em> of the home.
+          </h2>
+          <p class="hero-manifesto-para">
+            Designed in dialogue between Rajasthan’s master wood-carvers and contemporary interior palettes. 
+            Printed on single-ply, long-staple Indian combed cotton that stays crisp in tropical summers and tender through uncounted washings.
+          </p>
+
+          <div class="hero-ctas-group">
+            <a href="#catalogueSection" class="btn-primary-sunburst">
+              <span>Explore The 5 Foundations</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+              </svg>
+            </a>
+            <a href="#craftStory" class="btn-outline-editorial">
+              <span>The Craft Journey</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual-col">
+          <div class="hero-image-frame">
+            <img src="assets/editorial/homepage-hero.jpg" alt="LIVY Concept 03 Contemporary Indian Bedroom with Floral Garden Bedding" />
+            
+            <!-- Interactive Bed Hotspot -->
+            <div class="hero-hotspot" id="heroBedHotspot">
+              <div class="hotspot-pulse" title="Click to view SKU-01 Floral Garden">✦</div>
+              <div class="hotspot-card">
+                <div class="hotspot-label">Featured Foundation</div>
+                <div class="hotspot-title">Floral Garden</div>
+                <div class="hotspot-meta">SKU-01 • 400 TC Combed Cotton • ₹5,200</div>
+              </div>
+            </div>
+
+            <div class="hero-badge-sunburst">
+              <span class="badge-number">03</span>
+              <div class="badge-text">
+                Warm Sunburst<br />
+                Editorial Suite
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         COLOUR-BLOCKED SECTION: 4 Brand Pillars (Warm Sunburst Palette)
+         Sun Yellow (#FFCC00), Golden Yellow (#FFB900), Orange (#FF8C00), Vermilion (#FF5F00)
+         ---------------------------------------------------------------------- -->
+    <section class="brand-pillars-section" id="craftPillars">
+      <div class="site-container">
+        <div class="section-editorial-header">
+          <div class="eyebrow">The Sunburst Philosophy</div>
+          <h2 class="section-title editorial-title">Expressive craft. Restrained architecture.</h2>
+          <p class="section-subtitle">
+            Four commitments guiding LIVY’s reimagining of the modern Indian bed.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1: Sun Yellow -->
+          <div class="pillar-card sun-yellow">
+            <span class="pillar-number">01</span>
+            <div class="pillar-body-wrap">
+              <span class="pillar-tagline">Direct Equity</span>
+              <h3 class="pillar-title">Living Voices</h3>
+              <p class="pillar-desc">
+                Direct partnerships with artisan families in Sanganer and Bagru, guaranteeing fair living wages and preserving ancestral block-carving lineage.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pillar 2: Golden Yellow -->
+          <div class="pillar-card golden-yellow">
+            <span class="pillar-number">02</span>
+            <div class="pillar-body-wrap">
+              <span class="pillar-tagline">Single-Ply Combed</span>
+              <h3 class="pillar-title">400 TC Percale</h3>
+              <p class="pillar-desc">
+                Woven from long-staple Indian cotton with a matte, crisp cooling finish—specifically engineered for tropical ease and deep sleep.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pillar 3: Orange -->
+          <div class="pillar-card orange">
+            <span class="pillar-number">03</span>
+            <div class="pillar-body-wrap">
+              <span class="pillar-tagline">Natural Chemistry</span>
+              <h3 class="pillar-title">Teak &amp; Mud Resist</h3>
+              <p class="pillar-desc">
+                Zero synthetic screens. Every motif is hand-stamped with carved teak blocks and biologically fermented plant indigo.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pillar 4: Vermilion -->
+          <div class="pillar-card vermilion">
+            <span class="pillar-number">04</span>
+            <div class="pillar-body-wrap">
+              <span class="pillar-tagline">Contemporary Idiom</span>
+              <h3 class="pillar-title">A New Indian Home</h3>
+              <p class="pillar-desc">
+                Free of tourist tropes. Modernist geometry, rhythmic pinstripes, and serene botanicals that effortlessly anchor modern interiors.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         PRODUCT CATALOGUE: The 5 Authentic SKUs
+         Default: Folded standalone bedsheet
+         Hover: Crossfade + subtle scale to matching lifestyle view on bed
+         ---------------------------------------------------------------------- -->
+    <section class="catalogue-section" id="catalogueSection">
+      <div class="site-container">
+        <div class="section-editorial-header">
+          <div class="eyebrow">Authentic Master Catalogue</div>
+          <h2 class="section-title editorial-title">The Five Foundational Bedsheets</h2>
+          <p class="section-subtitle">
+            Hover over any bedsheet to experience its tactile drape across a styled bed.
+          </p>
+        </div>
+
+        <!-- Catalogue Filter Tabs -->
+        <div class="catalogue-controls">
+          <div class="filter-tabs" role="tablist">
+            <button class="filter-tab active" data-collection="all" role="tab">
+              All Foundations <span class="tab-count">(5)</span>
+            </button>
+            <button class="filter-tab" data-collection="botanical" role="tab">
+              Botanical &amp; Meadow <span class="tab-count">(2)</span>
+            </button>
+            <button class="filter-tab" data-collection="minimal" role="tab">
+              Quiet Lines <span class="tab-count">(2)</span>
+            </button>
+            <button class="filter-tab" data-collection="geometric" role="tab">
+              Indigo Crafts <span class="tab-count">(1)</span>
+            </button>
+          </div>
+
+          <div class="catalogue-meta-stats">
+            <span>Crafted from 100% Indian Combed Cotton • Single to Super King</span>
+          </div>
+        </div>
+
+        <!-- Products Grid Container (Injected by app.js) -->
+        <div class="products-grid" id="productsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         EDITORIAL CRAFT STORY: Sanganer & Bagru Artisan Spotlight
+         ---------------------------------------------------------------------- -->
+    <section class="craft-story-editorial" id="craftStory">
+      <div class="site-container craft-story-grid">
+        <div class="craft-image-composition">
+          <div class="craft-main-photo">
+            <img src="assets/editorial/artisan-craft.jpg" alt="Master artisan carving teak wood blocks for LIVY home linen in Sanganer" />
+          </div>
+          <div class="craft-floating-quote-card">
+            <p>"The block does not print ink; it prints time, pressure, and the human hand."</p>
+            <span>— Master Ramkishan, Sanganer Cluster</span>
+          </div>
+        </div>
+
+        <div class="craft-text-col">
+          <div class="eyebrow">Artisan Heritage &amp; Technique</div>
+          <h2 class="craft-title editorial-title">
+            The alchemy of teak, mud, and <em>desert indigo</em>.
+          </h2>
+          <p class="craft-body">
+            In the ancient printing townships outside Jaipur, craft is an uninterrupted continuum. 
+            A single bedsheet passes through more than five artisan households—from master block carvers who chisel 
+            teak wood to millimeter precision, to the printers who apply steady downward force on heavy wooden tables.
+          </p>
+
+          <div class="craft-steps-list">
+            <div class="craft-step-item">
+              <div class="step-num">01</div>
+              <div class="step-name">Teak Block Relief</div>
+              <div class="step-text">Aged seasoned teak carved by hand with fine gouges to create relief patterns.</div>
+            </div>
+            <div class="craft-step-item">
+              <div class="step-num">02</div>
+              <div class="step-name">Dabu Mud Resist</div>
+              <div class="step-text">Black clay, lime, and gum arabic mixed to resist natural dye immersion.</div>
+            </div>
+            <div class="craft-step-item">
+              <div class="step-num">03</div>
+              <div class="step-name">Rhythmic Stamping</div>
+              <div class="step-text">Aligned by eye with breath-like precision across seven meters of cotton.</div>
+            </div>
+            <div class="craft-step-item">
+              <div class="step-num">04</div>
+              <div class="step-name">Sun Curing</div>
+              <div class="step-text">Dried under the Rajasthan sun to naturally oxidize mineral pigments.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         TACTILE DRAPE & LOOKBOOK SECTION
+         ---------------------------------------------------------------------- -->
+    <section class="lookbook-section" id="livingLookbook">
+      <div class="site-container">
+        <div class="lookbook-editorial-card">
+          <div class="lookbook-image-wrap">
+            <img src="assets/editorial/tactile-lifestyle.jpg" alt="Contemporary Indian sanctuary styled with LIVY linen and natural sunlight" />
+          </div>
+          <div class="lookbook-content">
+            <div class="eyebrow">Interior Styling Guide</div>
+            <h2 class="section-title editorial-title">How to layer Concept 03 in a modern home.</h2>
+            <p class="section-subtitle" style="margin-top: 0;">
+              LIVY’s Warm Sunburst accents complement warm woods, cane, lime-wash walls, and modernist furniture.
+            </p>
+
+            <div class="lookbook-tips-list">
+              <div class="lookbook-tip">
+                <div class="tip-icon">01</div>
+                <div>
+                  <div class="tip-title">The Flat Sheet Turn-Down</div>
+                  <div class="tip-desc">Turn the top sheet down by 20 cm over your duvet to reveal the hand-block border contrast against neutral duvets.</div>
+                </div>
+              </div>
+              <div class="lookbook-tip">
+                <div class="tip-icon">02</div>
+                <div>
+                  <div class="tip-title">Envelope Sham Pairing</div>
+                  <div class="tip-desc">Our pillowcases feature deep 20 cm inner envelope flaps that keep pillow inserts hidden and clean-lined.</div>
+                </div>
+              </div>
+              <div class="lookbook-tip">
+                <div class="tip-icon">03</div>
+                <div>
+                  <div class="tip-title">Natural Morning Sunlight</div>
+                  <div class="tip-desc">The single-ply 400 TC percale exhibits a soft matte luster under direct sunlight, avoiding synthetic sheen.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         CUSTOMER REVIEWS & LIVING VOICES
+         ---------------------------------------------------------------------- -->
+    <section class="voices-section">
+      <div class="site-container">
+        <div class="section-editorial-header">
+          <div class="eyebrow">Living Indian Voices</div>
+          <h2 class="section-title editorial-title">Words from contemporary sanctuaries.</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-quote">
+              "Finally, Indian bedding that doesn't feel like a costume. The Floral Garden has transformed our bedroom into a tranquil modernist haven. The cotton hand is extraordinarily crisp."
+            </p>
+            <div class="testimonial-author">
+              <div>
+                <div class="author-name">Ananya Singhania</div>
+                <div class="author-location">Architect, Bengaluru</div>
+              </div>
+              <span class="verified-badge">Verified Owner</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-quote">
+              "Minimal Dash is pure poetry. You can sense the subtle human pulse in every tiny stamped line. It has softened beautifully after four washes while holding its crisp hotel fold."
+            </p>
+            <div class="testimonial-author">
+              <div>
+                <div class="author-name">Rohit Mehra</div>
+                <div class="author-location">Interior Stylist, Mumbai</div>
+              </div>
+              <span class="verified-badge">Verified Owner</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-rating">★★★★★</div>
+            <p class="testimonial-quote">
+              "The Indigo Geometry bedsheet feels substantial and cooling on humid nights. The deep natural indigo blue is celestial. Knowing it supports Bagru master artisans makes it irreplaceable."
+            </p>
+            <div class="testimonial-author">
+              <div>
+                <div class="author-name">Kavita Swaminathan</div>
+                <div class="author-location">Textile Conservator, New Delhi</div>
+              </div>
+              <span class="verified-badge">Verified Owner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------
+         SUNBURST NEWSLETTER BANNER
+         ---------------------------------------------------------------------- -->
+    <section class="newsletter-banner">
+      <div class="site-container newsletter-inner">
+        <div>
+          <h2 class="newsletter-title editorial-title">Join the <em>LIVY Craft Club</em></h2>
+          <p class="newsletter-subtitle">
+            Receive exclusive seasonal dispatch notes, studio sketches, and early invitations to limited artisan runs.
+          </p>
+        </div>
+        <form id="newsletterForm" class="newsletter-form">
+          <input type="email" class="newsletter-input" placeholder="Enter your email address" required />
+          <button type="submit" class="btn-newsletter-submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       EDITORIAL FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="site-container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <img src="assets/logo/livy-logo-light.png" alt="LIVY Home Linen" class="footer-logo" />
+          <p class="footer-brand-mission">
+            LIVY stands for <strong>Living Indian Voices and Yarns</strong>. 
+            We connect the enduring dignity of Indian textile heritage with the serene rhythms of contemporary homes.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Foundations</h4>
+          <ul class="footer-links-list">
+            <li><a href="#catalogueSection" class="footer-link">Floral Garden (SKU-01)</a></li>
+            <li><a href="#catalogueSection" class="footer-link">Soft Blue Stripes (SKU-02)</a></li>
+            <li><a href="#catalogueSection" class="footer-link">Botanical Sprig (SKU-03)</a></li>
+            <li><a href="#catalogueSection" class="footer-link">Minimal Dash (SKU-04)</a></li>
+            <li><a href="#catalogueSection" class="footer-link">Indigo Geometry (SKU-05)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Craft &amp; Care</h4>
+          <ul class="footer-links-list">
+            <li><a href="#craftStory" class="footer-link">Sanganer Teak Carving</a></li>
+            <li><a href="#craftStory" class="footer-link">Bagru Mud Resist (Dabu)</a></li>
+            <li><a href="#livingLookbook" class="footer-link">Linen Care Ritual</a></li>
+            <li><a href="#craftPillars" class="footer-link">400 TC Percale Weave</a></li>
+            <li><a href="#craftPillars" class="footer-link">Fair Living Wages</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Artisan Clusters</h4>
+          <div class="footer-craft-clusters">
+            <div class="cluster-tag">
+              <span class="cluster-pin">📍</span>
+              <span>Sanganer, Rajasthan (Teak Block)</span>
+            </div>
+            <div class="cluster-tag">
+              <span class="cluster-pin">📍</span>
+              <span>Bagru, Rajasthan (Natural Dabu)</span>
+            </div>
+            <div class="cluster-tag">
+              <span class="cluster-pin">📍</span>
+              <span>Maheshwar, MP (Handloom Stripes)</span>
+            </div>
+            <div class="cluster-tag">
+              <span class="cluster-pin">📍</span>
+              <span>Akola, Rajasthan (Fermented Indigo)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>© 2026 LIVY (Living Indian Voices and Yarns). Concept 03 — A New Indian Home.</div>
+        <div>Crafted with 100% Indian Combed Cotton • Designed for Contemporary Living</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       PRODUCT DETAIL MODAL
+       ======================================================================== -->
+  <div class="modal-overlay" id="productModalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalProductTitle">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">✕</button>
+
+      <div class="modal-grid">
+        <!-- Gallery Column -->
+        <div class="modal-gallery">
+          <div class="modal-main-image-wrap">
+            <img id="modalMainImage" class="modal-main-image" src="" alt="LIVY Product Image" />
+          </div>
+          <div class="modal-thumbs-row" id="modalThumbsContainer"></div>
+        </div>
+
+        <!-- Info Column -->
+        <div class="modal-info-col">
+          <div>
+            <div class="modal-eyebrow">Concept 03 • Authentic SKU</div>
+            <h2 id="modalProductTitle" class="modal-product-title"></h2>
+            <p id="modalProductSubtitle" class="modal-product-subtitle"></p>
+          </div>
+
+          <div class="modal-price-row">
+            <span id="modalCurrentPrice" class="modal-current-price"></span>
+            <span class="modal-tax-note">Inclusive of all taxes &amp; complimentary shipping</span>
+          </div>
+
+          <!-- Size Selector -->
+          <div class="modal-size-block">
+            <div class="size-label-row">
+              <span>Select Size:</span>
+              <span class="size-guide-trigger">Includes 2 Pillowcases</span>
+            </div>
+            <div class="size-options-grid" id="modalSizeOptions"></div>
+          </div>
+
+          <!-- Quantity Stepper & Add to Bag -->
+          <div class="modal-actions-row">
+            <div class="qty-control">
+              <button type="button" class="qty-btn" id="modalQtyMinus">−</button>
+              <span class="qty-display" id="modalQtyDisplay">1</span>
+              <button type="button" class="qty-btn" id="modalQtyPlus">+</button>
+            </div>
+            <button type="button" class="btn-modal-add" id="btnModalAddToCart">
+              <span>Add to Bag</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+
+          <p id="modalFullDesc" style="font-size: 0.9375rem; color: var(--text-muted); line-height: 1.6;"></p>
+
+          <!-- Specifications Accordion -->
+          <div class="modal-specs-list">
+            <div class="spec-line">
+              <span class="spec-label">Artisan Cluster</span>
+              <span class="spec-val" id="modalSpecCluster"></span>
+            </div>
+            <div class="spec-line">
+              <span class="spec-label">Craft Technique</span>
+              <span class="spec-val" id="modalSpecTechnique"></span>
+            </div>
+            <div class="spec-line">
+              <span class="spec-label">Composition</span>
+              <span class="spec-val" id="modalSpecFabric"></span>
+            </div>
+            <div class="spec-line">
+              <span class="spec-label">Wash &amp; Drape</span>
+              <span class="spec-val" id="modalSpecDrape"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       SLIDE-OUT CART DRAWER
+       ======================================================================== -->
+  <div class="cart-drawer-overlay" id="cartDrawerOverlay">
+    <div class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-label="Shopping Bag">
+      <div class="cart-header">
+        <div class="cart-title-row">
+          <h3 class="cart-heading">Your Bag</h3>
+          <span class="cart-count-badge"></span>
+        </div>
+        <button class="cart-close-btn" id="cartCloseBtn" aria-label="Close Bag">✕</button>
+      </div>
+
+      <!-- Free Shipping Meter -->
+      <div class="shipping-meter-wrap">
+        <div class="shipping-meter-text" id="shippingMeterText"></div>
+        <div class="shipping-progress-bar">
+          <div class="shipping-progress-fill" id="shippingMeterFill"></div>
+        </div>
+      </div>
+
+      <!-- Cart Items Body -->
+      <div class="cart-items-body" id="cartItemsContainer"></div>
+
+      <!-- Cart Footer -->
+      <div class="cart-footer">
+        <div class="cart-subtotal-row">
+          <span class="subtotal-label">Subtotal</span>
+          <span class="subtotal-amount" id="cartSubtotal"></span>
+        </div>
+        <button type="button" class="btn-checkout-primary" id="btnCheckoutPrimary">
+          <span>Proceed to Checkout</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       CHECKOUT SIMULATION MODAL
+       ======================================================================== -->
+  <div class="modal-overlay" id="checkoutModalOverlay">
+    <div class="modal-container checkout-modal-container">
+      <button class="modal-close-btn" id="checkoutCloseBtn" aria-label="Close checkout">✕</button>
+
+      <div id="checkoutFormSection">
+        <div class="checkout-steps-nav">
+          <div class="checkout-step-indicator active">
+            <span class="step-circle">1</span>
+            <span>Delivery Address</span>
+          </div>
+          <div class="checkout-step-indicator">
+            <span class="step-circle">2</span>
+            <span>Artisan Packaging</span>
+          </div>
+          <div class="checkout-step-indicator">
+            <span class="step-circle">3</span>
+            <span>Payment</span>
+          </div>
+        </div>
+
+        <h3 class="editorial-title" style="font-size: 1.8rem; margin-bottom: 1.25rem;">Dispatch Details</h3>
+        <form id="checkoutForm">
+          <div class="checkout-form-grid">
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-input" placeholder="e.g. Radhika Sharma" required value="Radhika Sharma" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Mobile Number</label>
+              <input type="tel" class="form-input" placeholder="+91 98765 43210" required value="+91 98765 43210" />
+            </div>
+            <div class="form-group full-width">
+              <label class="form-label">Street Address &amp; Residence</label>
+              <input type="text" class="form-input" placeholder="House / Flat No., Apartment, Street" required value="402, Lotus Pavilion, Indiranagar" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">City</label>
+              <input type="text" class="form-input" required value="Bengaluru" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">PIN Code</label>
+              <input type="text" class="form-input" placeholder="560038" required value="560038" />
+            </div>
+            <div class="form-group full-width">
+              <label class="form-label">Payment Method (Demo Mode)</label>
+              <select class="form-input">
+                <option>UPI / Google Pay / PhonePe (Fast Checkout)</option>
+                <option>Credit / Debit Card (All Major Indian &amp; Global Banks)</option>
+                <option>Cash on Delivery (Verified Pin Codes)</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-checkout-primary" style="margin-top: 1.75rem;">
+            <span>Place Order • Artisan Dispatch in 24h</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Order Success State -->
+      <div id="orderSuccessSection" class="order-success-screen" style="display: none;">
+        <div class="success-icon-wrap">✓</div>
+        <div class="eyebrow">Order Confirmed</div>
+        <h3 class="editorial-title" style="font-size: 2.2rem;">Welcome to the LIVY Home.</h3>
+        <p style="color: var(--text-muted); max-width: 480px;">
+          Your order <strong id="orderSuccessCode" class="order-code-badge"></strong> has been received by our Jaipur artisan team. 
+          Your bedsheets are being hand-checked and packed into reusable unbleached cotton pouches.
+        </p>
+        <button type="button" class="btn-primary-sunburst" id="btnContinueShopping" style="margin-top: 1rem;">
+          Continue Exploring
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       TOAST NOTIFICATION
+       ======================================================================== -->
+  <div class="toast-notification" id="toastNotification" role="status" aria-live="polite">
+    <span style="color: var(--color-sun-yellow); font-size: 1.1rem;">✦</span>
+    <span id="toastMessage"></span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/products-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
